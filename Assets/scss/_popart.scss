@@ -1,0 +1,15 @@
+#header-pop {
+    background: rgba(#333, 0.8);
+}
+
+.art {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    .artist-title {
+    padding-top: 20px;
+    font-family: "Playwrite DE Grund", cursive;
+    }
+
+}

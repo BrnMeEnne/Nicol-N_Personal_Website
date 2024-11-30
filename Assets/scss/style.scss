@@ -1,3 +1,110 @@
+@import 'menu','popart';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body {
-    background-color: red;
+    
+    .background {
+        background: url(/Assets/img/sondo\ mare\ 1.JPG) center;
+        background-size: cover;
+        height: 99vh;
+    }
+
+    .home {
+        background-size: cover;   
+        height: 100%;
+        padding-top: 10vh;
+        padding-right: 20vh;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        flex-wrap: wrap;
+        
+
+        .saluti {
+        text-align: center;
+        padding-top: 40px;
+        padding-left: 60px;   
+        font-family: "Playwrite DE Grund", cursive;
+
+            .hello {
+            padding-top: 8vh;
+            font-weight: 200;
+            font-size: 2rem;
+            color: white;
+            position: relative;
+            
+        }
+
+            .name {
+            padding-top: 1rem;
+            color: white; 
+            border-bottom: 1px solid #333;
+            display: block;
+
+            .hello2 {
+                padding-top: 2vh;
+                font-weight: 200;
+                font-size: 1.2rem;
+            }
+
+            .enne {
+                font-size: 3.2rem;
+                font-weight: 400;
+            }
+
+
+       
+        }
+    
+      }
+    }
+    
+
+    .biography {
+        padding: 40px 30px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        border-bottom: 2px solid grey;
+
+        .about-title {
+            font-weight: 450;
+            font-family: "Playwrite DE Grund", cursive;
+        }
+
+        .about-bio {
+            padding-top: 10px;
+            font-size: 0.8rem;
+        }
+
+    }
+}
+
+.social-icons {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ 
+    
+    .fab {
+        color: #fff;
+        padding: 0 5px;
+     &:hover {
+       color: #f60;
+       transition: 0.5s ease;
+     }
+    }
+
+}
+
+footer {
+display: flex;
+flex-direction: row;
+justify-content: center;
+
 }

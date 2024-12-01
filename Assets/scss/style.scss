@@ -1,16 +1,13 @@
-@import 'menu','popart';
+@import 'menu','popart','responsive';
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+
 body {
     
     .background {
         background: url(/Assets/img/sondo\ mare\ 1.JPG) center;
         background-size: cover;
-        height: 99vh;
+        height: 100vh;
+        overflow: hidden;
     }
 
     .home {
@@ -40,9 +37,9 @@ body {
         }
 
             .name {
-            padding-top: 1rem;
-            color: white; 
+            padding: 1rem 0;
             border-bottom: 1px solid #333;
+            color: white; 
             display: block;
 
             .hello2 {
@@ -62,26 +59,7 @@ body {
     
       }
     }
-    
 
-    .biography {
-        padding: 40px 30px;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        border-bottom: 2px solid grey;
-
-        .about-title {
-            font-weight: 450;
-            font-family: "Playwrite DE Grund", cursive;
-        }
-
-        .about-bio {
-            padding-top: 10px;
-            font-size: 0.8rem;
-        }
-
-    }
 }
 
 .social-icons {

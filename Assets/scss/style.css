@@ -3,20 +3,17 @@ header {
   display: flex;
   justify-content: left;
   align-items: center;
+  margin-top: 1rem;
   color: white;
-  z-index: 10;
+  z-index: 1;
   width: 100%;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-family: "Playwrite DE Grund", cursive;
   font-weight: 250;
-  padding-top: 5px;
-  padding-right: 20px;
 }
-
-.logo-img {
-  height: 30px;
-  width: 30px;
-  margin-left: 10px;
+header .logo-img {
+  width: 3rem;
+  margin-left: 1rem;
 }
 
 .menu-btn {
@@ -24,6 +21,7 @@ header {
 }
 
 .menu-icon {
+  padding-top: 1rem;
   display: none;
   flex-direction: column;
   justify-content: space-between;
@@ -35,7 +33,7 @@ header {
 .nav-icon {
   display: block;
   height: 3px;
-  width: 25px;
+  width: 35px;
   background-color: white;
   border-radius: 2px;
   transition: all 0.3s ease-in-out;
@@ -46,56 +44,31 @@ header {
   margin-top: 5px;
 }
 
-.menu {
-  list-style: none;
-  margin: 0;
-  padding-left: 2vw;
-  display: flex;
-  gap: 20px;
+#b3 {
+  margin-top: 5px;
 }
 
-.menu li a {
-  padding-right: 10px;
-  display: block;
+.menu {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 2vw;
   width: 100%;
+  margin: 0;
+}
+.menu .link {
   text-decoration: none;
   color: white;
   transition: color 0.3s ease;
+  margin: 0;
 }
-.menu li a.active {
+.menu .link.active {
+  color: #ff6600;
+}
+.menu .link:hover {
   color: #ff6600;
 }
 
-.menu li a:hover {
-  color: #ff6600;
-}
-
-@media (max-width: 768px) {
-  .menu-icon {
-    display: flex;
-  }
-  .menu {
-    display: none;
-    flex-direction: column;
-    background-color: rgba(51, 51, 51, 0.8);
-    position: absolute;
-    width: 100vw;
-    top: 50px;
-    text-align: center;
-  }
-  .menu li {
-    margin: 10px 0;
-  }
-  .menu-btn:checked ~ .menu {
-    display: flex;
-  }
-  .menu-btn:checked + .menu-icon .nav-icon:nth-child(1) {
-    transform: rotate(45deg);
-  }
-  .menu-btn:checked + .menu-icon .nav-icon:nth-child(2) {
-    transform: rotate(-45deg) translate(6px, -6px);
-  }
-}
 #header-pop {
   background: rgba(51, 51, 51, 0.8);
 }
@@ -110,16 +83,60 @@ header {
   font-family: "Playwrite DE Grund", cursive;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+@media (max-width: 768px) {
+  .menu-icon {
+    display: flex;
+  }
+  .menu {
+    display: none;
+    flex-direction: column;
+    background-color: rgba(51, 51, 51, 0.8);
+    position: absolute;
+    top: 50px;
+    text-align: center;
+  }
+  .menu li {
+    margin: 10px 0;
+  }
+  .menu-btn:checked ~ .menu {
+    display: flex;
+  }
+  .menu-btn:checked + .menu-icon .nav-icon:nth-child(1) {
+    transform: rotate(45deg) translate(0px, 11px);
+  }
+  .menu-btn:checked + .menu-icon .nav-icon:nth-child(2) {
+    background: transparent;
+  }
+  .menu-btn:checked + .menu-icon .nav-icon:nth-child(3) {
+    transform: rotate(-45deg) translate(0px, -11px);
+  }
 }
-
+@media (max-width: 1399px) {
+  .menu_middle {
+    display: none;
+  }
+}
+@media (min-width: 1399px) {
+  #menu_header {
+    display: none;
+  }
+  .menu_middle {
+    width: 100%;
+    border-top: 1px solid #333;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+    padding: 3vh 0;
+    color: #ff6600;
+    font-weight: 500;
+    font-size: 2rem;
+  }
+}
 body .background {
   background: url(/Assets/img/sondo\ mare\ 1.JPG) center;
   background-size: cover;
-  height: 99vh;
+  height: 100vh;
+  overflow: hidden;
 }
 body .home {
   background-size: cover;
@@ -145,9 +162,9 @@ body .home .saluti .hello {
   position: relative;
 }
 body .home .saluti .name {
-  padding-top: 1rem;
-  color: white;
+  padding: 1rem 0;
   border-bottom: 1px solid #333;
+  color: white;
   display: block;
 }
 body .home .saluti .name .hello2 {
@@ -158,21 +175,6 @@ body .home .saluti .name .hello2 {
 body .home .saluti .name .enne {
   font-size: 3.2rem;
   font-weight: 400;
-}
-body .biography {
-  padding: 40px 30px;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  border-bottom: 2px solid grey;
-}
-body .biography .about-title {
-  font-weight: 450;
-  font-family: "Playwrite DE Grund", cursive;
-}
-body .biography .about-bio {
-  padding-top: 10px;
-  font-size: 0.8rem;
 }
 
 .social-icons {

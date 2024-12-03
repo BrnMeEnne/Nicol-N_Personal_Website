@@ -1,5 +1,9 @@
 @media (max-width: 768px) {
 
+    .home {
+        padding-left: 10vh;
+    }
+
     .menu-icon {
         display: flex;
     }
@@ -7,15 +11,21 @@
         .menu {
           display: none;
           flex-direction: column;
-          background-color: rgba($color: #333, $alpha: 0.8);
+          justify-content: center;
+          background-color: rgba($color: #333, $alpha: 0.9);
           position: absolute;
           top: 50px;
           text-align: center;
+          height: 100vh;
+
+          li {
+            padding: 5vh 0;
+            font-size: 1.5rem;
+          }
         }
       
-        .menu li {
-        margin: 10px 0;
-        }
+        
+       
     
         .menu-btn:checked ~ .menu {
           display: flex;
@@ -32,8 +42,6 @@
         .menu-btn:checked + .menu-icon .nav-icon:nth-child(3) {
             transform: rotate(-45deg) translate(0px, -11px);
         }
-      
-      
       }
 
 @media (max-width: 1399px) {
@@ -48,6 +56,7 @@
         display: none;
     }
 
+  
     .menu_middle {
             width: 100%;
             border-top: 1px solid #333;
@@ -56,9 +65,13 @@
             transition: color 0.3s ease;
             padding: 3vh 0; 
             color: #ff6600;
-            font-weight: 500;
+            font-weight: 300;
             font-size: 2rem;
 
             }
-          }
+
+
+
+}
+
 

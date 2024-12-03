@@ -8,9 +8,9 @@
     color: white;
     z-index: 1;
     width: 100%;
-    font-size: 1.8rem;
-    font-family: "Playwrite DE Grund", cursive;
-    font-weight: 250;
+    font-size: 1rem;
+    font-family: "Lexend Peta", sans-serif;
+    font-weight: 300;
 
     .logo-img {
       width: 3rem;
@@ -26,7 +26,6 @@
   }
   
   .menu-icon {
-    padding-top: 1rem;
     display: none;
     flex-direction: column;
     justify-content: space-between;
@@ -39,7 +38,7 @@
   .nav-icon {
     display: block;
     height: 3px;
-    width: 35px;
+    width: 26px;
     background-color: white;
     border-radius: 2px;
     transition: all 0.3s ease-in-out;

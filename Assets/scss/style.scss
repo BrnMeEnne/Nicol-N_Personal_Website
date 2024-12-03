@@ -4,10 +4,11 @@
 body {
     
     .background {
-        background: url(/Assets/img/sondo\ mare\ 1.JPG) center;
+        background: linear-gradient(to right,
+        rgba(black, 0.5), rgba(#333, 0)),
+        url(/Assets/img/sondo\ mare\ 1.JPG) center;
         background-size: cover;
-        height: 100vh;
-        overflow: hidden;
+        height: 98vh;
     }
 
     .home {
@@ -24,8 +25,8 @@ body {
         .saluti {
         text-align: center;
         padding-top: 40px;
-        padding-left: 60px;   
-        font-family: "Playwrite DE Grund", cursive;
+        font-family: "Lexend Peta", sans-serif;
+
 
             .hello {
             padding-top: 8vh;
@@ -84,5 +85,7 @@ footer {
 display: flex;
 flex-direction: row;
 justify-content: center;
+align-items: center;
+font-size: 0.7rem;
 
 }

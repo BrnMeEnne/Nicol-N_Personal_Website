@@ -2,7 +2,6 @@
     margin-top: 1rem;
     position: absolute;
     font-size: 1rem;
- 
 
 }
 
@@ -90,7 +89,12 @@
                 font-weight: 600;
                 font-size: 1.2rem;
                 width: 30vw;
-                color: #ffffff;
+                color: #fff;
+
+                &:hover {
+                    background-color: #f60 ;
+                }
+
                 }
         }
    

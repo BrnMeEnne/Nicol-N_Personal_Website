@@ -81,7 +81,7 @@ header .logo-img {
   flex-direction: column;
   text-align: center;
   align-items: center;
-  background: url(../Assets/img/spraycans.jpg) no-repeat;
+  background: url(Assets/img/spraycans.jpg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
   color: #fff;
@@ -205,7 +205,7 @@ header .logo-img {
 .contattami {
   padding-top: 20vh;
   height: 98vh;
-  background: linear-gradient(to bottom, rgba(37, 37, 37, 0.9), rgba(51, 51, 51, 0)), url(../Assets/img/sondo\ mare\ 1.JPG) center;
+  background: linear-gradient(to bottom, rgba(37, 37, 37, 0.9), rgba(51, 51, 51, 0)), url(Assets/img/sondo\ mare\ 1.JPG) center;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -222,7 +222,7 @@ header .logo-img {
 }
 
 body .background {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(51, 51, 51, 0)), url(..//Assets/img/sondo\ mare\ 1.JPG) center;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(51, 51, 51, 0)), url(Assets/img/sondo\ mare\ 1.JPG) center;
   background-size: cover;
   height: 98vh;
 }

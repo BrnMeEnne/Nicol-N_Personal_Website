@@ -1,0 +1,13 @@
+.contattami {
+    padding-top: 20vh;
+    height: 98vh;
+    background: linear-gradient(to bottom,
+    rgba(#252525, 0.9), rgba(#333, 0));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .form-control {
+        width: 50vw;
+    }
+}

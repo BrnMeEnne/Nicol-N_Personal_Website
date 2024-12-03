@@ -12,11 +12,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@100..900&display=swap" rel="stylesheet">
-    <title>Enne Enne</title>
+    <title>Contattami</title>
 </head>
 
-<body>
 
+<body>
+    
     <header>
         <a href="/index.html" class="logo">
             <img src="/Assets/img/Enne_logo.png" alt="Logo Enne" class="logo-img">
@@ -28,60 +29,54 @@
             <span class="nav-icon" id="b3"></span>
         </label>
         <ul class="menu" id="menu_header">
-            <li ><a href="index.html" class="link active">Benvenuto</a></li>
+            <li ><a href="index.html" class="link">Benvenuto</a></li>
             <li ><a href="curriculum.html" class="link">Curriculum</a></li>
             <li ><a href="popart.html" class="link">Pop Art</a></li>
-            <li ><a href="contatattami.html" class="link">Contattami</a></li>
+            <li ><a href="contatattami.html" class="link active">Contattami</a></li>
         </ul>
     </header>
 
-<main>
-<section class="background">
-<section class="home">
-    <div class="saluti">
-        <h2 class="hello"><em>Hello Everyone</em><br></h2>
-        <div class="name">
-            <em><h2 class="hello2">I'm</h2></em>
-             <h1 class="enne">Nicolò</h1>
+    <section class="contattami">
+    <form id="contact_form">
+        <div class="mb-3">
+          <label for="nome" class="form-label" >Nome</label>
+          <input type="text" class="form-control" id="nome" name="nome" aria-describedby="emailHelp" required>
         </div>
-
-        <div class="menu_middle">
-            <input type="checkbox" class="menu-btn" id="menu-btn">
-            <label for="menu-btn" class="menu-icon">
-                <span class="nav-icon" id="b1"></span>
-                <span class="nav-icon" id="b2"></span>
-            </label>
-            <ul class="menu">
-                <li ><a href="index.html" class="link active">Welcome</a></li>
-                <li ><a href="curriculum.html" class="link">Curriculum</a></li>
-                <li ><a href="popart.html" class="link">Pop Art</a></li>
-                <li ><a href="contatti.html" class="link">Contacts</a></li>
-            </ul>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" placeholder="Esempio@email.com" class="form-control" id="email"  name="email" required>
         </div>
-
-        <div class="social-icons">
-            <a href="#!">
-                <i class="fab fa-twitter fa-2x"></i>
-            </a>
-            <a href="#!">
-                <i class="fab fa-facebook fa-2x"></i>
-            </a>
-            <a href="#!">
-                <i class="fab fa-instagram fa-2x"></i>
-            </a>
-            <a href="#!">
-                <i class="fab fa-github fa-2x"></i>
-            </a>
-        </div> 
-    </div>
-</section>
-<footer> &copy; Copyright Nicolò Natali 2024</footer>
+        <div class="mb-3">
+            <label for="messaggio" class="form-label">Lasciami un Messaggio</label>
+            <textarea class="form-control" placeholder="Dimmi la tua!" id="messaggio" name="messaggio" rows="3"></textarea>
+          </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </section>
 
 
 
-</section>
-</main>
+
+
+
+</body>
+
+
+
+
+
+
+
+<footer class="footer_pop"> &copy; Copyright Nicolò Natali 2024</footer>
+
 
 <script src="https://kit.fontawesome.com/b213745f56.js" crossorigin="anonymous"></script>
+<script src="/Assets/js/_contacs.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script>
+    emailjs.init('fgSMiW72HoJS8iiIE');
+</script>
+
+
 </body>
 </html>

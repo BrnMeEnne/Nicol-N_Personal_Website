@@ -1,10 +1,22 @@
 #header-pop {
-    margin-top: 1rem;
-    position: absolute;
+    background:rgba(#333, $alpha: 1);
     font-size: 1rem;
+    position: sticky;
+    left: 0;
+    top:0;
+    margin: 0;
+    padding-top: 3px;
+
+    #menu_pop {
+        height: 100vh;
+    }
 
 }
 
+.background_art {
+    background: url(/Assets/img/spraycans.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 
 .art {
     min-height: 100vh;
@@ -13,9 +25,6 @@
     flex-direction: column;
     text-align: center;
     align-items: center;
-    background: url(/Assets/img/spraycans.jpg) no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
     color: #fff;
 
     .artist-bio {
@@ -79,6 +88,8 @@
         }
 
    }   
+
+}
 
 
 

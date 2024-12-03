@@ -81,7 +81,7 @@ header .logo-img {
   flex-direction: column;
   text-align: center;
   align-items: center;
-  background: url(Assets/img/spraycans.jpg) no-repeat;
+  background: url(../Assets/img/spraycans.jpg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
   color: #fff;

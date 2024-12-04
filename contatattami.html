@@ -37,7 +37,7 @@
     </header>
 
     <section class="contattami">
-    <form id="contact_form" onSubmit="handleForm()>
+    <form id="contact_form">
         <div class="mb-3">
           <label for="nome" class="form-label" >Nome</label>
           <input type="text" class="form-control" id="nome" name="nome" aria-describedby="emailHelp" required>
@@ -74,8 +74,7 @@
 
 
 
-
-<script type="text/javascript"
+    <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
 </script>
 <script type="text/javascript">
@@ -86,18 +85,15 @@
    })();
 </script>
     <script>
-      const handleForm = async (e) => {
-        try {
-          await emailjs.sendForm('service_y1hkus8', 'template_cbdpr58', document.getElementById('contact_form'));
-          alert('email sent!');
-        } catch (error) {
-          console.error(error);
-          alert('Failed to send email');
-        }
-      };
+emailjs.sendForm('service_y1hkus8', 'template_cbdpr58', '#contact_form').then(
+  (response) => {
+    console.log('SUCCESS!', response.status, response.text);
+  },
+  (error) => {
+    console.log('FAILED...', error);
+  },
+);
     </script>
-
-
     
 </body>
 </html>

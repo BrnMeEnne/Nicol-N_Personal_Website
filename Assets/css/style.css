@@ -80,7 +80,7 @@ header .logo-img {
 }
 
 .background_art {
-  background: url(../img/spraycans.jpg) no-repeat;
+  background: url(../img/spraycans.jpg) center no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }

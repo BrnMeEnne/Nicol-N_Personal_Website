@@ -219,6 +219,10 @@ header .logo-img {
   #menu_header {
     display: none;
   }
+  #cont_job, #cont_studi, #cont_skill, #cont_lang {
+    text-align: center;
+    padding: 2vh 0;
+  }
   .menu_middle {
     width: 100%;
     border-top: 1px solid #333;

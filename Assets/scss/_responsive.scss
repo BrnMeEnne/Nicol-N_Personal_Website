@@ -86,6 +86,11 @@
         display: none;
     }
 
+    #cont_job, #cont_studi, #cont_skill, #cont_lang {
+      text-align: center;
+      padding: 2vh 0;
+    }
+
   
     .menu_middle {
             width: 100%;
@@ -98,7 +103,7 @@
             font-weight: 300;
             font-size: 2rem;
 
-            }
+            }       
 }
 
 

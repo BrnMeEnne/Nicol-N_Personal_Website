@@ -50,7 +50,7 @@
             <label for="messaggio" class="form-label">Lasciami un Messaggio</label>
             <textarea class="form-control" placeholder="Dimmi la tua!" id="messaggio" name="messaggio" rows="3"></textarea>
           </div>
-        <button type="submit" class="btn btn-outline-warning">Invia</button>
+        <button type="submit" class="btn btn-outline-warning" value="send">Invia</button>
       </form>
     </section>
 
@@ -88,7 +88,7 @@
     <script>
       const handleForm = async (e) => {
         try {
-          await emailjs.sendForm('service_y1hkus8', 'template_cbdpr58', document.getElementById('contact-form'));
+          await emailjs.sendForm('service_y1hkus8', 'template_cbdpr58', document.getElementById('contact_form'));
           alert('email sent!');
         } catch (error) {
           console.error(error);

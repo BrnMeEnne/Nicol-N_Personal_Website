@@ -1,5 +1,20 @@
 @media (max-width: 768px) {
 
+    #header_curriculum {
+      position: sticky;
+      background:rgba(#333, $alpha: 1);
+      left: 0;
+      margin: 0;
+      top: 0;
+      padding-top: 3px;
+     
+      #menu_curriculum {
+        position: fixed;
+        height: 100vh;
+      }
+
+    }
+
     .home {
         padding-left: 10vh;
     }
@@ -24,9 +39,13 @@
           }
         }
       
-        
-       
-    
+
+
+        #menu_pop {
+          height: 100vh;
+      }
+
+      
         .menu-btn:checked ~ .menu {
           display: flex;
           position: absolute;
@@ -45,6 +64,15 @@
             transform: rotate(-45deg) translate(0px, -11px);
         }
       }
+
+
+@media (min-width: 768px) {
+  #header-pop {
+    background: none;
+    position: absolute;
+  }
+
+}
 
 @media (max-width: 1399px) {
     .menu_middle {
@@ -71,9 +99,7 @@
             font-size: 2rem;
 
             }
-
-
-
 }
+
 
 

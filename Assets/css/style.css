@@ -80,9 +80,8 @@ header .logo-img {
 }
 
 .background_art {
-  background: url(../img/spraycans.jpg) center no-repeat;
+  background: url(../img/spraycans.jpg) center fixed;
   background-size: cover;
-  background-attachment: fixed;
 }
 .background_art .art {
   min-height: 100vh;

@@ -1,7 +1,7 @@
 header {
   position: absolute;
   display: flex;
-  justify-content: left;
+  justify-content: flex-start;
   align-items: center;
   margin-top: 1rem;
   color: white;
@@ -51,7 +51,7 @@ header .logo-img {
   list-style: none;
   display: flex;
   flex-direction: row;
-  gap: 2vw;
+  gap: 2rem;
   width: 100%;
   margin: 0;
   z-index: 3;
@@ -99,7 +99,6 @@ header .logo-img {
   padding-bottom: 6vh;
   background: linear-gradient(to bottom, rgba(37, 37, 37, 0.9), rgba(51, 51, 51, 0));
   font-family: "Lexend Peta", sans-serif;
-  font-optical-sizing: auto;
   font-style: normal;
 }
 .background_art .art .artist-bio .logo-main {

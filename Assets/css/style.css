@@ -80,8 +80,9 @@ header .logo-img {
 }
 
 .background_art {
-  background: url(../img/sfondo_astratto.png) center fixed;
+  background: url(/Assets/img/sfondo_astratto.png) no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 .background_art .art {
   min-height: 100vh;
@@ -154,18 +155,6 @@ header .logo-img {
 }
 
 @media (max-width: 768px) {
-  #header_curriculum {
-    position: sticky;
-    background: #333333;
-    left: 0;
-    margin: 0;
-    top: 0;
-    padding-top: 3px;
-  }
-  #header_curriculum #menu_curriculum {
-    position: fixed;
-    height: 100vh;
-  }
   .home {
     padding-left: 10vh;
   }
@@ -185,6 +174,26 @@ header .logo-img {
   .menu li {
     padding: 5vh 0;
     font-size: 1.5rem;
+  }
+  #header_curriculum, #header_contacts, #header_index {
+    position: sticky;
+    background: #333333;
+    left: 0;
+    margin: 0;
+    top: 0;
+    padding-top: 3px;
+  }
+  #header_curriculum #menu_curriculum, #header_contacts #menu_curriculum, #header_index #menu_curriculum {
+    position: fixed;
+    height: 100vh;
+  }
+  #header_curriculum #menu_header, #header_contacts #menu_header, #header_index #menu_header {
+    position: fixed;
+    height: 100vh;
+  }
+  #header_curriculum #menu_contacts, #header_contacts #menu_contacts, #header_index #menu_contacts {
+    position: fixed;
+    height: 100vh;
   }
   #menu_pop {
     height: 100vh;
@@ -237,7 +246,7 @@ header .logo-img {
 .contattami {
   padding-top: 20vh;
   height: 98vh;
-  background: linear-gradient(to bottom, rgba(37, 37, 37, 0.9), rgba(51, 51, 51, 0)), url(../img/sondo\ mare\ 1.JPG) center;
+  background: linear-gradient(to bottom, rgba(37, 37, 37, 0.9), rgba(51, 51, 51, 0)), url(/Assets/img/sondo\ mare\ 1.JPG) center;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -253,8 +262,17 @@ header .logo-img {
   font-weight: 300;
 }
 
+.social_title {
+  text-align: center;
+  color: #fff;
+  margin-top: 8vh;
+  font-family: "Lexend Peta", sans-serif;
+  font-weight: 100;
+  font-size: 1rem;
+}
+
 .background_curriculum {
-  background: linear-gradient(to bottom, rgba(37, 37, 37, 0.9), rgba(51, 51, 51, 0)), url(../img/sondo\ mare\ 1.JPG) center fixed;
+  background: linear-gradient(to bottom, rgba(37, 37, 37, 0.9), rgba(51, 51, 51, 0)), url(/Assets/img/sondo\ mare\ 1.JPG) center fixed;
   background-size: cover;
 }
 
@@ -338,12 +356,12 @@ header .logo-img {
   border-bottom: 2px solid #dfd800;
 }
 
-.menu-btn:checked ~ header {
-  overflow: hidden;
+#social_curriculum {
+  margin: 1vh 0;
 }
 
 body .background {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(51, 51, 51, 0)), url(../img/sondo\ mare\ 1.JPG) center;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(51, 51, 51, 0)), url(/Assets/img/sondo\ mare\ 1.JPG) center;
   background-size: cover;
   height: 98vh;
 }

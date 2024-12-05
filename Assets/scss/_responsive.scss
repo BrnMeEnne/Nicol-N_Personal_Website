@@ -1,20 +1,5 @@
 @media (max-width: 768px) {
 
-    #header_curriculum {
-      position: sticky;
-      background:rgba(#333, $alpha: 1);
-      left: 0;
-      margin: 0;
-      top: 0;
-      padding-top: 3px;
-     
-      #menu_curriculum {
-        position: fixed;
-        height: 100vh;
-      }
-
-    }
-
     .home {
         padding-left: 10vh;
     }
@@ -38,12 +23,42 @@
             font-size: 1.5rem;
           }
         }
-      
 
+        #header_contacts {
+
+        }
+      
+        #header_curriculum, #header_contacts, #header_index {
+          position: sticky;
+          background:rgba(#333, $alpha: 1);
+          left: 0;
+          margin: 0;
+          top: 0;
+          padding-top: 3px;
+         
+          #menu_curriculum {
+            position: fixed;
+            height: 100vh;
+          }
+
+          #menu_header {
+            position: fixed;
+            height: 100vh;
+          }
+
+        #menu_contacts {
+          position: fixed;
+            height: 100vh;
+        }
+        
+    
+        }
 
         #menu_pop {
           height: 100vh;
       }
+
+
 
       
         .menu-btn:checked ~ .menu {

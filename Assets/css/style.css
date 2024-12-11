@@ -301,8 +301,7 @@ header .logo-img {
   font-size: 10vw;
   padding-bottom: 2rem;
   text-align: center;
-  grid-column: 1/6;
-  grid-row: 1;
+
 }
 .curriculum .container-sm {
   background: #fff;

@@ -280,11 +280,6 @@ header .logo-img {
   padding-bottom: 5vh;
   align-items: center;
   color: #fff;
-  display: grid;
-  grid-template-rows: auto;
-  grid-template-columns: 0.2fr 2fr 2fr 2fr 0.2fr;
-  column-gap: 1vw;
-  row-gap: 4vh;
   font-family: "Lexend Peta", sans-serif;
   text-align: center;
 }
@@ -301,8 +296,15 @@ header .logo-img {
   font-size: 10vw;
   padding-bottom: 2rem;
   text-align: center;
-
 }
+.curriculum .curriculum_grid {
+ display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 0.2fr 2fr 2fr 2fr 0.2fr;
+  column-gap: 1vw;
+  row-gap: 4vh;
+}
+
 .curriculum .container-sm {
   background: #fff;
   border-radius: 5px;

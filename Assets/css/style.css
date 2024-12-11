@@ -282,6 +282,8 @@ header .logo-img {
   color: #fff;
   font-family: "Lexend Peta", sans-serif;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 .curriculum p {
   color: #333;

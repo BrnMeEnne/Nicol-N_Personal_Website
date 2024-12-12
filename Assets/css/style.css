@@ -257,15 +257,16 @@ header .logo-img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+  display: flex;
 }
 
 #contact_title {
   color:#fff;
   margin-bottom: 2vh;
   font-family: "Lexend Peta", sans-serif;
-  text-align: center;
-  display: flex;
-  flex-wrap: wrap;
+  font-size: 5vw;
+
 }
   
 .contattami .form-control {

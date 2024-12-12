@@ -26,7 +26,7 @@ header .logo-img {
   justify-content: space-between;
   width: 30px;
   cursor: pointer;
-  padding-right: 2vh;
+  rginright: 0.5rem;
 }
 
 .nav-icon {

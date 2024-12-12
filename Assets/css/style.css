@@ -411,7 +411,7 @@ body .home .saluti .name .enne {
   flex-direction: row;
   justify-content: center;
 }
-a {
+.social-icons a {
   color: #fff;
   padding: 0 1rem;
   font-family: "Lexend Peta", sans-serif;

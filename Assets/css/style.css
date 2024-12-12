@@ -261,7 +261,7 @@ header .logo-img {
   align-items: center;
 }
 
-.contattami .contact_title {
+#contact_title {
   color:#fff;
   padding-bottom: 2vh;
   font-family: "Lexend Peta", sans-serif;

@@ -68,6 +68,10 @@ header .logo-img {
 .menu .link:hover {
   color: #ff6600;
 }
+.menu li a[disabled] {
+    pointer-events: none;
+    cursor: default;
+  }
 
 #header-pop {
   background: #333333;
@@ -174,10 +178,7 @@ header .logo-img {
     padding: 5vh 0;
     font-size: 1.5rem;
   }
-  .menu li a[disabled] {
-    pointer-events: none;
-    cursor: default;
-  }
+
   #header_curriculum, #header_contacts, #header_index {
     position: sticky;
     background: #333333;

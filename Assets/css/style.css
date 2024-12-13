@@ -19,6 +19,9 @@ header .logo-img {
   display: none;
 }
 
+main {
+  baground: #000;
+}
 .menu-icon {
   display: none;
   flex-direction: column;

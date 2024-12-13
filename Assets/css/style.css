@@ -245,14 +245,17 @@ header .logo-img {
   }
 }
 .contattami {
-  height: 98vh;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(51, 51, 51, 0)), url(../img/sondo\ mare\ 1.JPG) center;
-  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   display: flex;
+}
+
+.background_contacts {
+  height: 98vh;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(51, 51, 51, 0)), url(../img/sondo\ mare\ 1.JPG) center;
+  background-size: cover;
 }
 
 #contact_title {

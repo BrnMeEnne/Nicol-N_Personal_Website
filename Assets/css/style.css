@@ -95,6 +95,7 @@ header .logo-img {
   text-align: center;
   align-items: center;
   color: #fff;
+  background: none;
 }
 .background_art .art .artist-bio {
   width: 100%;

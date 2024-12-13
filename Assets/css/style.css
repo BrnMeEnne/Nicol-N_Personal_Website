@@ -65,14 +65,12 @@ header .logo-img {
 }
 .menu .link.active {
   color: #ff6600;
+  pointer-events: none;
+  cursor: default;
 }
 .menu .link:hover {
   color: #ff6600;
 }
-.menu li a[disabled] {
-    pointer-events: none;
-    cursor: default;
-  }
 
 #header-pop {
   background: #333333;

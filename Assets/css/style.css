@@ -85,6 +85,7 @@ header .logo-img {
   background: url(../img/sfondo_pop.png) no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  background-color: #333;
 }
 .background_art .art {
   min-height: 100vh;

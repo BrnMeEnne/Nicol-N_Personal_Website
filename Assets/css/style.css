@@ -18,10 +18,6 @@ header .logo-img {
 .menu-btn {
   display: none;
 }
-
-main {
-  background: #000;
-}
 .menu-icon {
   display: none;
   flex-direction: column;
@@ -63,7 +59,7 @@ main {
   color: white;
   transition: color 0.3s ease;
   margin: 0;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
 }
 .menu .link.active {
   color: #ff6600;

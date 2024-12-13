@@ -152,7 +152,7 @@ header .logo-img {
   font-weight: 600;
   font-size: 1.2rem;
   width: 30vw;
-  color: #000;
+  color: rgb(110, 44, 0);
 }
 .background_art .link_paints .btn:hover {
   background-color: #f60;

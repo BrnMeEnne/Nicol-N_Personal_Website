@@ -142,7 +142,7 @@ header .logo-img {
 }
 .background_art .art .paints .card .card-body .card-link {
   text-decoration: none;
-  color: #f60;
+  color: rgb(110, 44, 0);
   font-weight: 500;
 }
 .background_art .link_paints {
@@ -152,7 +152,7 @@ header .logo-img {
   font-weight: 600;
   font-size: 1.2rem;
   width: 30vw;
-  color: rgb(110, 44, 0);
+  color: #fff;
 }
 .background_art .link_paints .btn:hover {
   background-color: #f60;

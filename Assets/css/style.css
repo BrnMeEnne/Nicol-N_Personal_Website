@@ -325,12 +325,13 @@ header .logo-img {
 .curriculum .container-sm {
   background: #fff;
   border-radius: 5px;
-  padding: 1vh 0;
+  padding: 1rem 1rem;
   text-align: left;
-  padding-left: 1rem;
 }
-.curriculum .container-sm h6 {
+.curriculum .container-sm h3 {
   color: #ff6600;
+  font-size: 1rem;
+  font-weight: 700;
 }
 .curriculum .container-sm .h-75 {
   color: #ff6600;

@@ -302,9 +302,10 @@ header .logo-img {
 .curriculum p {
   color: #333;
 }
-.curriculum h3 {
+.curriculum h2 {
   color: #fff;
   font-weight: 200;
+  padding-top: 3vh;
 }
 .curriculum .curriculum_title {
   font-family: "Lexend Peta", sans-serif;

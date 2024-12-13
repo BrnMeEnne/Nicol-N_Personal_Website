@@ -132,7 +132,8 @@ header .logo-img {
   margin: 1rem;
 }
 .background_art .art .paints .card .card-title {
-  padding-top: 20px;
+  padding: 2vh 0;
+  font-size: 1.5rem;
 }
 .background_art .art .paints .card .card-body {
   display: flex;

@@ -363,10 +363,12 @@ header .logo-img {
   border-left: 2px solid #df00d8;
   border-bottom: 2px solid #df00d8;
   display: flex;
-  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
 }
 .curriculum .title_skill #cont_skill img {
-  max-width: 6vw;
+  max-width: 4rem;
+  padding: 1rem 0;
 }
 .curriculum .title_lang {
   grid-column: 2/5;

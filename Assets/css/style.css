@@ -419,7 +419,6 @@ body .home .saluti .hello {
 }
 body .home .saluti .name {
   padding: 1rem 0;
-  border-bottom: 1px solid #333;
   color: white;
   display: block;
 }

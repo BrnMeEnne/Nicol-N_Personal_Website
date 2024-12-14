@@ -252,6 +252,7 @@ header .logo-img {
   align-items: center;
   text-align: center;
   display: flex;
+  height: 98vh;
 }
 
 .background_contacts {

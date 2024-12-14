@@ -156,6 +156,7 @@ header .logo-img {
 }
 .background_art .link_paints .btn:hover {
   background-color: #f60;
+  color: #000;
 }
 
 @media (max-width: 768px) {

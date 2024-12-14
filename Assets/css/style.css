@@ -282,15 +282,15 @@ header .logo-img {
 .social_title {
   text-align: center;
   color: #fff;
-  margin-top: 8vh;
   font-family: "Lexend Peta", sans-serif;
-  font-weight: 100;
+  font-weight: 200;
   font-size: 1rem;
 }
 
 .background_curriculum {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(51, 51, 51, 0)), url(../img/sondo\ mare\ 1.JPG) center fixed;
   background-size: cover;
+  min-height: 98vh;
 }
 
 .curriculum {

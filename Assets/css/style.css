@@ -450,6 +450,10 @@ font-size: 1rem;
 text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+body .home .saluti .name .container-sm .btn{
+margin-top: 2rem;
+}
+
 .social-icons {
   padding-top: 1rem;
   display: flex;

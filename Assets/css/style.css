@@ -253,6 +253,7 @@ header .logo-img {
   text-align: center;
   display: flex;
   min-height: 98vh;
+  padding-bottom: 2rem;
 }
 
 .background_contacts {
@@ -289,6 +290,7 @@ header .logo-img {
   font-family: "Lexend Peta", sans-serif;
   font-weight: 200;
   font-size: 1rem;
+  padding: 0 2rem;
 }
 
 .background_curriculum {

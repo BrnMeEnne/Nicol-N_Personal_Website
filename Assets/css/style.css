@@ -249,6 +249,9 @@ header .logo-img {
   .menu_middle ul {
     text-align: center;
   }
+.menu {
+  justify-content: center;
+}
 }
 .contattami {
   display: flex;
